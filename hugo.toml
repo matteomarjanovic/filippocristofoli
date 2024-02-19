@@ -1,7 +1,7 @@
 baseURL = 'https://filippocristofoli.it/'
 languageCode = 'it-it'
 title = 'Filippo Cristofoli | Nutrizionista'
-theme = 'roxo-hugo'
+theme = 'my-roxo-hugo'
 summarylength = 25
 
 # Site Menus
