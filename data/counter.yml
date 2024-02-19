@@ -1,0 +1,11 @@
+enable : false
+heading : "I MIEI NUMERI"
+counter_item: 
+  - title: "Happy Clients"
+    number: "250"
+
+  - title: "Aziende partner"
+    number: " 2"
+
+  - title: "Pubblicazioni"
+    number: "4"
