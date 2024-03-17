@@ -20,6 +20,10 @@ summarylength = 25
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
     name    = "Contattami"
     url     = "contact"
     weight  = 5
@@ -38,7 +42,7 @@ summarylength = 25
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://fabform.io/f/WopbCdP"
 
   # Contact Form
   [params.contactForm]
@@ -50,11 +54,11 @@ summarylength = 25
     send_message                  = "Invia"
 
     [[params.contactForm.projectType]]
-      value = "gd"
-      title  = "Graphics Design"
+      value = "prima-visita"
+      title  = "Prima Visita"
     [[params.contactForm.projectType]]
-      value = "wd"
-      title  = "Web Design"
+      value = "controllo"
+      title  = "Visita di Controllo"
     [[params.contactForm.projectType]]
       value = "all"
       title  = "Altro"
@@ -103,7 +107,7 @@ summarylength = 25
     [params.footer.contactInfo]
       title   = "Informazioni"
       address = "Riceve su appuntamento presso lo studio in<br />Via Matteotti 1, Povegliano Veronese, 37064<br />"
-      piva    = "123456789"
+      piva    = "05025400234"
       phone   = "376 236 8261"
       email   = "nutrizionista.cristofolifilippo@gmail.com"
       # Footer Sitemap
