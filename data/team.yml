@@ -4,4 +4,4 @@ members  :
   - image       : images/team/team-member-one.jpg
     name        : FILIPPO CRISTOFOLI
     designation : Biologo Nutrizionista
-    linkedin    : https://www.linkedin.com/in/filippo-cristofoli-b63277233/
+    # linkedin    : https://www.linkedin.com/in/filippo-cristofoli-b63277233/

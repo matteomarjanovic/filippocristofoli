@@ -7,4 +7,4 @@ category: [""]
 project_images: ["images/projects/visita-controllo.jpeg"]
 ---
 
-Nelle visite di controllo...
+I controlli post-prima visita verranno fissati a seconda delle esigenze della persona e degli obiettivi prefissati. Essi sono utili a tenere monitorati i progressi nel tempo. Oltre a ripetere le misurazioni di massa corporea, circonferenze e pliche cutanee, potrà essere richiesta la compilazione di un diario alimentare.
