@@ -131,6 +131,6 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "Chi sono:"
-        description = "Filippo Cristofoli è un Biologo Nutrizionista laureato con il massimo dei voti a Parma. Lavora come nutrizionista in diverse regioni italiane e scrive per la collana <i>Il Conviviale</i> su temi legati all'alimentazione."
+        description = "Filippo Cristofoli è un Biologo Nutrizionista. Offre consulenza a Povegliano Veronese e Villafranca di Verona. Co-autore nella collana Il Conviviale, con focus sull'alimentazione sana e bilanciata."
       [params.footer.back_to_top]
         description = "Torna all'inizio"
