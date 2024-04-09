@@ -21,6 +21,7 @@ expertise_sectors: [
     "Obesità",
     "Osteoporosi",
     "Patologie autoimmuni",
+    "Patologie dermatologiche",
     "Patologie gastrointestinali",
     "Patologie metaboliche",
     "Reflusso gastroesofageo (esofagite)",
