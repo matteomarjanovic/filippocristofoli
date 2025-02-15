@@ -13,5 +13,3 @@ Inclusi nella prima visita vi sono:
 - Valutazione della massa corporea (bioimpedenziometria)
 - Misurazione delle circonferenze
 - Misurazione delle pliche cutanee
-
-Tariffa: €100
