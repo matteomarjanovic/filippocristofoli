@@ -1,4 +1,15 @@
-# Fix for hugo.yaml
+baseURL: "https://YOUR_USERNAME.github.io/REPO_NAME/"  # Replace with your actual GitHub Pages URL
+languageCode: "en-us"
+title: "Your Site Title"
+theme: "your-theme-name"
+
+# Build settings
+publishDir: "public"
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# GitHub Actions workflow
 name: Deploy Hugo site to Pages
 
 on:
@@ -20,7 +31,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -28,13 +42,13 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: github-pages # Explicitly set artifact name
+          name: github-pages
 
   deploy:
     needs: build
@@ -47,4 +61,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: github-pages # Match the upload artifact name
+          artifact_name: github-pages
